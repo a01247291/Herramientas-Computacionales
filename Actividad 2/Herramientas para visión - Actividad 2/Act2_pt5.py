@@ -7,10 +7,8 @@ while True:
 
     result, frame = cam.read()
 
-      
-    
     if result: 
-        
+
         # Convertimos cada cuadro a escala de grises
         gris = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
